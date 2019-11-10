@@ -28,7 +28,7 @@ def array_literal_matrix
   # alphabetically by the first character.
   NEW_ENNET_HOUSE = ENNET_HOUSE.sort 
   NEW_ENFIELD_TENNIS_ACADEMY = ENFIELD_TENNIS_ACADEMY.sort
-  residents_sorted = [NEW_ENNET_HOUSE, NEW_ENFIELD_TENNIS_ACADEMY]
+  residents_sorted = [NEW_ENNET_HOUSE.sort, NEW_ENFIELD_TENNIS_ACADEMY]
 end
 
 def matrix_lookup(matrix, row, column)
